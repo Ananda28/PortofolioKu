@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Portofolio Ananda </title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav-logo">Ananda Aulia's Porto</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!-- HOME -->
+            <section class="home bd-grid" id="home">
+                <div class="home-data">
+                    <h1 class="home-title">Hello,<br>I'am <span class="home-title-color">Ananda</span><br> Quality Assurance</h1>
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+                <div class="home-social">
+                    <a href="https://www.linkedin.com/in/ananda-aulia//" class="home-social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Ananda28/" class="home-social-icon"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.youtube.com/channel/UClRfeItnT_GgmCL7yBNY4Nw/featured" class="home-social-icon"><i class='bx bxl-youtube'></i></a>
+                </div>
+                <div class="home-img">    
+                    <img src="assets/img/prefil.png" alt="">
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-container bd-grid">
+                    <div class="about-img">
+                        <img src="assets/img/about.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about-subtitle">I'am Ananda</h2>
+                        <p class="about-text">a Student of telkom purwokerto institute of technology, from software engineering study program. Currently, I am entering my 7th semester. I am completing a frontend programming task, which is to create a website portfolio.</p>
+                        <div class="tab-subtitles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2019-Present</span><br>Institut Teknologi Telkom Purwokerto</li>
+                                <li><span>2015-2018</span><br>SMA PGRI 1 Bekasi</li>
+                                <li><span>2012-2015</span><br>SMPN 3 Bekasi</li>
+                                <li><span>2006-2012</span><br>SDN Bekasi Java V</li>
+                            </ul>
+                        </div>  
+                        <div class="tab-contents" id="certificate">
+                            <ul>
+                                <li><span>September-Oktober 2022</span><br>Fresh Graduate AcademyxBinar - Quality Assurance</li>
+                                <li><span>September 2022</span><br>BNSP - Junior Web Developer</li>
+                                <li><span>Februari-Juli 2022</span><br>Student Independent Besertifikat - AI Hipster</li>
+                                <li><span>Agustus-Oktober 2021</span><br>KMMI - Data Science Fundamental</li>
+                            </ul>
+                        </div>     
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container bd-grid">          
+                    <div>
+                        <h2 class="skills-subtitle">Profesional Skills</h2>
+                        <p class="skills-text"></p>
+                        <div class="skills-data">
+                            <div class="skills-names">
+                                <i class='bx bx-code skills-icon'></i>
+                                <span class="skills-name">Front end programming</span>
+                            </div>
+                            <div class="skills-bar skills-code">
+                            </div>
+                            <div>
+                                <span class="skills-percentage">64%</span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-names">
+                                <i class='bx bxl-figma skills-icon'></i>
+                                <span class="skills-name">UI/UX</span>
+                            </div>
+                            <div class="skills-bar skills-uiux">
+                            </div>
+                            <div>
+                                <span class="skills-percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-names">
+                                <i class='bx bx-chart skills-icon' ></i>
+                                <span class="skills-name">Data Science</span>
+                            </div>
+                            <div class="skills-bar skills-ds">
+                            </div>
+                            <div>
+                                <span class="skills-percentage">58%</span>
+                            </div>
+                        </div>
+                        <div class="skills-data">
+                            <div class="skills-names">
+                                <i class='bx bxs-bug skills-icon'></i>
+                                <span class="skills-name">Quality Assurance</span>
+                            </div>
+                            <div class="skills-bar skills-qa">
+                            </div>
+                            <div>
+                                <span class="skills-percentage">68%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/Skills.jpg" alt="" class="skills-img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Project -->
+            <section class="project section" id="project">
+                <h2 class="section-title">Project</h2>
+
+                <div class="project-container bd-grid">
+                    <div class="project-img">
+                        <img src="assets/img/project1.png" alt="">
+                    </div>
+                    <div class="project-img">
+                        <img src="assets/img/project2.png" alt="">
+                    </div>
+                    <div class="project-img">
+                        <img src="assets/img/project3.png" alt="">
+                    </div>
+                    <div class="project-img">
+                        <img src="assets/img/project4.png" alt="">
+                    </div>
+                    <div class="project-img">
+                        <img src="assets/img/project5.png" alt="">
+                    </div>
+                    <div class="project-img">
+                        <img src="assets/img/project6.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-container bd-grid">
+                    <form action="Email:19104053@ittelkom-pwt.ac.id" class="contact-form">
+                        <input type="text" placeholder="Name" class="contact-input">
+                        <input type="mail" placeholder="Email" class="contact-input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact-input"></textarea>
+                        <input type="submit" value="Send" class="contact-button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p class="footer-title">Let's connect with my social media at</p>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" class="footer-icon"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.instagram.com/anandaaaao/ " class="footer-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/ " class="footer-icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.tiktok.com/id-ID/" class="footer-icon"><i class='bx bxl-tiktok' ></i></a>
+            </div>
+            <p>&#169; 2022 copyright all right reserved</p>
+        </footer>
+
+
+        <!-- SCROLL REVEAL -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
